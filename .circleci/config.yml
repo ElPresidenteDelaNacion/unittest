@@ -28,7 +28,7 @@ jobs:
           command: mvn test
       - run:
           name: Echo
-          command: echo "holamundo"
+          command: Echo "holamundo"
       - run:      
           name: Save test results
           command: |
